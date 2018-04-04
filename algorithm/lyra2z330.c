@@ -9,7 +9,7 @@
 
 //extern uint64_t lyra2z330_height;
 
-void lyra2z330_hash(const char* input, char* output, uint32_t len)
+void lyra2z330_regenhash(const char* input, char* output, uint32_t len)
 {
   uint32_t _ALIGN(64) hash[8];
 
