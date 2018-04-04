@@ -42,6 +42,7 @@ typedef enum {
   ALGO_EQUIHASH,
   ALGO_LBRY, 
   ALGO_LYRA2Z,
+  ALGO_LYRA2Z330,
   ALGO_LYRA2H,
 } algorithm_type_t;
 
