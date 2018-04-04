@@ -1359,7 +1359,7 @@ static algorithm_settings_t algos[] = {
   { "lyra2re", ALGO_LYRA2RE, "", 1, 128, 128, 0, 0, 0xFF, 0xFFFFULL, 0x0000ffffUL, 4, 2 * 8 * 4194304, 0, lyra2re_regenhash, precalc_hash_blake256, queue_lyra2re_kernel, gen_hash, NULL },
   { "lyra2rev2", ALGO_LYRA2REV2, "", 1, 256, 256, 0, 0, 0xFF, 0xFFFFULL, 0x0000ffffUL, 6, -1, CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE, lyra2rev2_regenhash, precalc_hash_blake256, queue_lyra2rev2_kernel, gen_hash, append_neoscrypt_compiler_options },
   { "lyra2Z", ALGO_LYRA2Z, "", 1, 256, 256, 0, 0, 0xFF, 0xFFFFULL, 0x0000ffffUL, 1, 0,0, lyra2Z_regenhash, precalc_hash_blake256, queue_lyra2z_kernel, gen_hash, NULL },
-  { "lyra2z330", ALGO_LYRA2Z330, "LYRA2Z", 1, 256, 256, 0, 0, 0xFF, 0xFFFFULL, 0x0000ffffUL, 1, 0,0, lyra2z330_regenhash, precalc_hash_blake256, queue_lyra2z_kernel, gen_hash, NULL },
+  { "lyra2z330", ALGO_LYRA2Z330, "LYRA2z", 1, 256, 256, 0, 0, 0xFF, 0xFFFFULL, 0x0000ffffUL, 1, 0,0, lyra2z330_regenhash, precalc_hash_blake256, queue_lyra2z_kernel, gen_hash, NULL },
   { "lyra2h", ALGO_LYRA2H, "", 1, 256, 256, 0, 0, 0xFF, 0xFFFFULL, 0x0000ffffUL, 1, 0,0, lyra2h_regenhash, precalc_hash_blake256, queue_lyra2h_kernel, gen_hash, NULL },
 
   // kernels starting from this will have difficulty calculated by using fuguecoin algorithm
